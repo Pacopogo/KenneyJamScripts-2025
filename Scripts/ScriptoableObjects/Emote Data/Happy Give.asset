@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f97eeca0c7668eb45902df8f31a2426f, type: 3}
+  m_Name: Happy Give
+  m_EditorClassIdentifier: 
+  EmoteName: Happy/Give
+  Icon: {fileID: 21300000, guid: 0b0b82e8a8ae6aa44b1ed8a1fd48bb82, type: 3}
+  Sound: {fileID: 8300000, guid: d5f9db4c57887f24fa5d8ebde26f96ed, type: 3}
+  StatChanges:
+  - Type: 0
+    Amount: 10
+    Multiplier: 1
+  - Type: 4
+    Amount: 0
+    Multiplier: 0.5
+  Hotkey: 0
